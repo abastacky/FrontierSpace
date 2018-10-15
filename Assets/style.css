@@ -1,0 +1,446 @@
+body{
+	/*background-color: rgb(241, 255, 186);*/
+	height:800vh;
+	width:100vw;
+	margin:0;
+	/*cursor:default;	*/
+	overflow-x:hidden;
+	font-family:arial, sans-serif;
+	position:relative;
+}
+
+#intro{
+	position: absolute;
+    margin-left: 11vw;
+    margin-top:100vh;
+	/*font-family: 'Prompt', sans-serif;*/
+	font-family:arial, sans-serif;
+	mix-blend-mode: overlay;
+	color:red;
+/*	font-size: 135pt;*/
+	font-size: 10vw;
+	line-height: 90%;
+	/*background-color: yellow;*/
+	width:78vw;
+	text-align: center;
+}
+
+.parallax{
+/*	background-color:red;*/
+	position:relative;
+	/* The image used */
+    background-image: url(OutOfService_Blue.png);
+    /*url(file:///Users/annikabastacky/Documents/GitHub/FS_Housing/OutOfService.JPG);*/
+   /* url(file:///Users/annikabastacky/Documents/GitHub/FS_Housing/OutOfService_Blue.png);*/
+
+    /* Set a specific height */
+    max-width: 100vw;
+    min-height: 400vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div.a{
+	/*margin: 100px;*/
+	/*width: 500px;*/
+    transform: rotate(-90deg);
+	/*color:rgb(255, 50, 28);*/
+	color:red;
+	font-family: arial, sans-serif;
+	font-weight:bold;
+	font-size:3vw;
+	position:fixed;
+	text-align: center;
+	z-index:1;
+	margin-right: 70vw;
+    margin-top: 30vh;
+    margin-left: 1vw;
+    width: 400px;
+    height: 400px;
+    z-index:11;
+}
+
+#ratio{
+	height:0.315vh;
+	width:.5vw;
+	background-color:red;
+	margin-top: 25vh;
+	margin-left: 3.75vw;
+	position:fixed;
+	z-index:12;
+
+}
+
+#twentyinches{
+	transform: rotate(-90deg);
+	position:fixed;
+	color:red;
+	font-family: arial, sans-serif;
+	font-weight:bold;
+	font-size:1vw;
+	z-index:13;
+	margin-top: 23vh;
+    margin-left: 2vw;
+    width: 100px;
+    height: 100px;
+    text-align:right;
+
+}
+
+div.b{
+    transform: rotate(90deg);
+	/*color:rgb(255, 50, 28);*/
+	color:red;
+	font-family: arial, sans-serif;
+	font-weight:bold;
+	font-size:3vw;
+	position:fixed;
+	text-align: center;
+	z-index:2;
+/*	margin-right: 70vw;
+*/    margin-top: 30vh;
+/*    margin-left: 72.5vw;
+*/    width: 400px;
+    height: 400px;
+    right: 1vw;
+    z-index:11;
+}
+
+#yellowtext {
+	/*background-color:white;*/
+	color:red;
+	font-size: 60px;
+    line-height: 90%;
+	width: 100vw;
+	height: 400vh;
+	display:none;
+	position:absolute;
+	/*mix-blend-mode: overlay;*/
+}
+
+.text{
+	margin-left:5vw;
+	margin-right:5vw;
+	width:90vw;
+	height:auto;
+	text-align: justify;
+    text-justify: inter-word;
+    position:absolute;
+  /*  mix-blend-mode: luminosity;*/
+
+}
+
+.images{
+	width: 100vw;
+	height: 400vh;
+	display:none;
+	position:absolute;
+
+/*	clear:both;*/
+
+}
+
+#DefensiveArch{
+	width:36vw;
+	margin-left:5vw;
+	margin-right:5vw;
+	position:absolute;
+	mix-blend-mode: screen;
+	z-index:9;
+/*	cursor:move;*/
+
+}
+
+#Notice{
+	width: 22vw;
+	margin-left: 0.75vw;
+	margin-top: 36vh;
+	mix-blend-mode: screen;
+	z-index: 11;
+	position:absolute;
+}
+
+#Fence{
+	width: 34vw;
+	margin-left: 55vw;
+	margin-top: 20vh;
+	mix-blend-mode: screen;
+	z-index: 12;
+	position:absolute;
+}
+
+#Brushstroke{
+	width:22vw;
+	margin-left: 35vw;
+	margin-top: 85vh;
+	mix-blend-mode: luminosity;
+	z-index: 18;
+	position:absolute;
+}
+
+#Tag{
+	width:28vw;
+	margin-left: 22vw;
+	margin-top: 29vh;
+	mix-blend-mode: luminosity;
+	z-index: 14;
+	position:absolute;
+
+}
+
+#Hillside{
+	width:28vw;
+	margin-left: 80vw;
+	margin-top: 82vh;
+	mix-blend-mode: luminosity;
+	z-index: 15;
+	position:absolute;
+}
+
+#Tape{
+	width:25vw;
+	margin-left: 60vw;
+	margin-top: 200vh;
+	mix-blend-mode: luminosity;
+	z-index: 16;
+	position:absolute;
+}
+
+#Barrier{
+	width:28vw;
+	margin-left: 20vw;
+	margin-top: 160vh;
+	mix-blend-mode: Screen;
+	z-index: 17;
+	position:absolute;
+}
+
+#Tree{
+	width:20vw;
+	margin-left: 47vw;
+	margin-top: 300vh;
+	mix-blend-mode: Screen;
+	z-index: 17;
+	position:absolute;
+}
+
+#Scoot{
+	width:40vw;
+	margin-left: 11vw;
+	margin-top: 270vh;
+	mix-blend-mode: Screen;
+	z-index: 17;
+	position:absolute;
+	cursor:move;
+}
+
+#Proofofpurchase{
+	width:22vw;
+	margin-left: -2vw;
+	margin-top: 370vh;
+	mix-blend-mode: Luminosity;
+	z-index: 18;
+	position:absolute;
+}
+
+#Planters{
+	width:20vw;
+	margin-left: 58vw;
+	margin-top: 220vh;
+	mix-blend-mode: Luminosity;
+	z-index: 19;
+	position:absolute;
+
+}
+
+#Thermoplast{
+	width:15vw;
+	margin-left: 10vw;
+	margin-top: 130vh;
+	mix-blend-mode: Luminosity;
+	z-index: 20;
+	position:absolute;
+}
+
+.map{
+	width: auto;
+	height: 400vh;
+	display:none;
+	position:absolute;
+}
+
+#Path{
+	width:100vw;
+	height:400vh;
+}
+
+#maptextleft{
+	width:28vw;
+	height:400vh;
+	color:rgb(0, 255, 0);
+	font-size: 3.5vw;
+/*	-webkit-transform:scale(2,1);*/
+	position:absolute;
+	text-align:left;
+	left:5vw;
+	top: 2vh;
+	letter-spacing:-2px;
+	font-weight:bold;
+	mix-blend-mode: screen;
+	line-height: 90%;
+}
+
+#maptextright{
+	width:34vw;
+	height:400vh;
+	color:rgb(0, 255, 0);
+	font-size: 3.5vw;
+/*	-webkit-transform:scale(2,1);*/
+	position:absolute;
+	text-align:right;
+	right:5vw;
+	top: 2vh;
+	letter-spacing:-2px;
+	font-weight:bold;
+	mix-blend-mode: screen;
+	line-height: 90%;
+}
+
+#stickynav {
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+  	width:100vw;
+  	height:7vh;
+  	background-color:white;
+  	transition:all 300ms ease;
+  	padding-left: 3vh;
+  	z-index:25;
+
+}
+
+.circle {
+    height: 3vh;
+    width: 3vh;
+/*  	background-color: yellow;*/
+  	border-radius: 50%;
+  	display: inline-block;
+  	margin-top: 2vh;
+    margin-left: 6vh;
+    cursor:pointer;
+    transition: 0.4s;
+}
+
+
+
+#yellow:hover{
+	/*background-color: rgb(181, 33, 255);*/
+	height: 3.5vh;
+	width: 3.5vh;
+/*	transition:all 300ms ease;*/
+	cursor:pointer;
+	transition: 0.3s;
+
+}
+
+#magenta:hover{
+	/*background-color: rgb(0, 183, 196);*/
+	height: 3.5vh;
+	width: 3.5vh;
+/*	transition:all 300ms ease;*/
+	cursor:pointer;
+	transition: 0.3s;
+	
+}
+
+
+#cyan:hover{
+/*	background-color: rgb(255, 167, 5);*/
+	height: 3.5vh;
+	width: 3.5vh;
+	cursor:pointer;
+	transition: 0.3s;
+}
+
+#yellow{
+	/*background-color:yellow;*/
+	background-color:red;
+	margin-left:2vh;
+
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	cursor:pointer;
+	transition: 0.3s;
+}
+
+#magenta{
+	background-color:rgb(0, 255, 0);
+	margin-left:2vh;
+	/*width:3vh;
+	height:3vh;
+	border-radius: 50%;
+	display: inline-block;
+	cursor:pointer;*/
+
+	position: absolute;
+	top: 5px;
+	left: 50px;
+	cursor:pointer;
+	transition: 0.3s;
+}
+
+#cyan{
+	background-color:rgb(0, 0, 255);
+	margin-left:2vh;
+/*	width:3vh;
+	height:3vh;
+	border-radius: 50%;
+	display: inline-block;
+	cursor:pointer;*/
+
+	position: absolute;
+	top: 5px;
+	left: 90px;
+	cursor:pointer;
+	transition: 0.3s;
+
+}
+
+@media print {
+    /* styles here */
+    .parallax{ display:none; }
+
+	body {
+   		width:100%!important;
+    	padding:0!important;
+    	margin:0!important;
+  	}
+
+  	#yellowtext {
+	
+		margin:0!important;
+		font-size: 40px;
+    	line-height: 90%;
+	}
+
+	.images{
+		width:75%;
+	}
+}
+
+@page {
+  margin: 0cm;
+}
+
+
+
+
+
+
+
